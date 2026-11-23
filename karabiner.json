@@ -173,36 +173,18 @@
             ]
           },
           {
-            "description": "Both shift keys switch input source",
+            "description": "Right Shift behaves as Right Control",
             "manipulators": [
-              {
-                "from": {
-                  "key_code": "left_shift",
-                  "modifiers": {
-                    "mandatory": ["right_shift"],
-                    "optional": ["any"]
-                  }
-                },
-                "to": [
-                  {
-                    "key_code": "spacebar",
-                    "modifiers": ["left_control"]
-                  }
-                ],
-                "type": "basic"
-              },
               {
                 "from": {
                   "key_code": "right_shift",
                   "modifiers": {
-                    "mandatory": ["left_shift"],
                     "optional": ["any"]
                   }
                 },
                 "to": [
                   {
-                    "key_code": "spacebar",
-                    "modifiers": ["left_control"]
+                    "key_code": "right_control"
                   }
                 ],
                 "type": "basic"
