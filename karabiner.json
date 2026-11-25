@@ -194,6 +194,26 @@
             ]
           },
           {
+            "description": "Right Shift + Space no longer switches input source",
+            "manipulators": [
+              {
+                "from": {
+                  "key_code": "spacebar",
+                  "modifiers": {
+                    "mandatory": ["right_control"],
+                    "optional": ["any"]
+                  }
+                },
+                "to": [
+                  {
+                    "key_code": "spacebar"
+                  }
+                ],
+                "type": "basic"
+              }
+            ]
+          },
+          {
             "description": "Right Shift behaves as Right Control",
             "manipulators": [
               {
