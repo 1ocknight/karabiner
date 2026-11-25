@@ -173,6 +173,27 @@
             ]
           },
           {
+            "description": "Fn + Cmd switches input source",
+            "manipulators": [
+              {
+                "from": {
+                  "key_code": "fn",
+                  "modifiers": {
+                    "mandatory": ["left_command"],
+                    "optional": ["any"]
+                  }
+                },
+                "to": [
+                  {
+                    "key_code": "spacebar",
+                    "modifiers": ["left_control"]
+                  }
+                ],
+                "type": "basic"
+              }
+            ]
+          },
+          {
             "description": "Right Shift behaves as Right Control",
             "manipulators": [
               {
