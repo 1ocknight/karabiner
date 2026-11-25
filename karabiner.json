@@ -173,11 +173,11 @@
             ]
           },
           {
-            "description": "Fn + Space switches input source",
+            "description": "Fn + Tab switches input source",
             "manipulators": [
               {
                 "from": {
-                  "key_code": "spacebar",
+                  "key_code": "tab",
                   "modifiers": {
                     "mandatory": ["fn"],
                     "optional": ["any"]
