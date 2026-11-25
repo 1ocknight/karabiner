@@ -89,6 +89,25 @@
             ]
           },
           {
+            "description": "Right Option behaves as Left Control",
+            "manipulators": [
+              {
+                "from": {
+                  "key_code": "right_option",
+                  "modifiers": {
+                    "optional": ["any"]
+                  }
+                },
+                "to": [
+                  {
+                    "key_code": "left_control"
+                  }
+                ],
+                "type": "basic"
+              }
+            ]
+          },
+          {
             "description": "Left Command behaves as Fn",
             "manipulators": [
               {
