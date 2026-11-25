@@ -173,13 +173,13 @@
             ]
           },
           {
-            "description": "Fn + Cmd switches input source",
+            "description": "Fn + Space switches input source",
             "manipulators": [
               {
                 "from": {
-                  "key_code": "fn",
+                  "key_code": "spacebar",
                   "modifiers": {
-                    "mandatory": ["left_command"],
+                    "mandatory": ["fn"],
                     "optional": ["any"]
                   }
                 },
